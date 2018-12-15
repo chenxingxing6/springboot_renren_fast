@@ -1,7 +1,6 @@
 **项目说明** 
 - renren-fast是一个轻量级的，前后端分离的Java快速开发平台，能快速开发项目并交付【接私活利器】
-
- 
+---
 
 **具有如下特点** 
 - 友好的代码结构及注释，便于阅读及二次开发
@@ -54,6 +53,7 @@ renren-fast
 - 页面交互：Vue2.x 
 <br> 
 
+---
  **后端部署**
 - 通过git下载源码
 - 创建数据库renren_fast，数据库编码为UTF-8
@@ -61,16 +61,18 @@ renren-fast
 - 修改application-dev.yml，更新MySQL账号和密码
 - Eclipse、IDEA运行RenrenApplication.java，则可启动项目
 - Swagger路径：http://localhost:8080/renren-fast/swagger/index.html
+ <br>
 
-<br> 
+
+---
  **前端部署**
  - 本项目是前后端分离的，还需要部署前端，才能运行起来
  - 前端下载地址：https://gitee.com/renrenio/renren-fast-vue
  - 前端部署文档：https://gitee.com/renrenio/renren-fast-vue/wikis/Home
  - 前端部署完毕，就可以访问项目了，账号：admin，密码：admin
-
  <br>
 
+---
  **项目演示**
 - 演示地址：http://fast.demo.renren.io
 - 账号密码：admin/admin
