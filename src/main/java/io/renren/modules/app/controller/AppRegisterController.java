@@ -32,7 +32,10 @@ public class AppRegisterController {
 
     @PostMapping("register")
     @ApiOperation("注册")
-    public R register(@RequestBody RegisterForm form){
+    public R register(String mobile, String password){
+        RegisterForm form = new RegisterForm();
+        form.setMobile(mobile);
+        form.setPassword(password);
         //表单校验
         ValidatorUtils.validateEntity(form);
 
